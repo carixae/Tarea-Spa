@@ -1,0 +1,42 @@
+body{
+   
+    background-color:#F6F4F3;
+    color: #4c2522;
+}
+.horizontal p{
+    margin: 0px;
+}
+
+    
+
+.navbar{
+   border-bottom: solid #D1C8C1;
+    
+}
+
+.navbar-brand{
+    color: #4c2522;
+    font-size: 30px;
+
+}
+.menucss{
+    border: none;
+    color:#4c2522 ;
+    background-color:#D1C8C1;
+    
+}
+
+.menucss:hover{
+    transition: 0.3ms;
+    background-color:#4c2522;
+    color: #D1C8C1; 
+}
+
+
+@media (max-width: 992px){
+       
+    .horizontal p {
+        margin-top: 10px;
+         }
+    }
+   
