@@ -2,15 +2,47 @@ body{
    
     background-color:#F6F4F3;
     color: #4c2522;
-}
-.horizontal p{
+    padding: 0px;
     margin: 0px;
 }
+a{
+    margin: 0px;
+    text-decoration:none;
+    color: #4c2522;
+    cursor: pointer;
+}
 
-    
+
+a:hover{
+    color: #D1C8C1;
+
+}
+
+img{
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+.botoncomparar{
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #D1C8C1;
+    color: #4c2522;
+   
+}
+ 
+.botoncomparar:hover{
+    background-color: #4c2522;
+    color: #D1C8C1;
+
+}
+
 
 .navbar{
    border-bottom: solid #D1C8C1;
+   background-color: #F6F4F3 ;
     
 }
 
@@ -22,21 +54,45 @@ body{
 .menucss{
     border: none;
     color:#4c2522 ;
-    background-color:#D1C8C1;
-    
+    background-color:#D1C8C1;  
 }
 
 .menucss:hover{
     transition: 0.3ms;
-    background-color:#4c2522;
-    color: #D1C8C1; 
+    color: #D1C8C1;  
+}
+
+
+.imagenes1{
+    padding: 0px 5px;
+    margin: 0px;
+    
 }
 
 
 @media (max-width: 992px){
        
-    .horizontal p {
+    .horizontal a{
         margin-top: 10px;
          }
     }
    
+footer{
+    border-top: solid #D1C8C1;
+    background-color: #F6F4F3 ; 
+    color:#4c2522;
+   
+}
+
+footer p{
+    margin-bottom: 5px;
+}
+
+footer a{
+    margin-right: 10px;
+}
+
+#menu{
+    display: block;
+}
+
